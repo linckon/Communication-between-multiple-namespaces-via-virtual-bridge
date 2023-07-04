@@ -1,14 +1,9 @@
 
 # Communication between multiple namespaces via virtual bridge
-=====================================================================
-
-## Introduction
-------------
 
 This documentation provides a step-by-step guide to creating and configuring virtual network elements using namespaces, virtual Ethernet cables, and a virtual bridge in order to establish communication between two namespaces.
 
 ## Prerequisites
--------------
 
 Before proceeding with the setup, ensure that the following prerequisites are met:
 
@@ -183,9 +178,6 @@ This will give you access to the Ubuntu environment within the virtual machine.
     sudo ip netns exec ns1 ip route
     ```
     
-
-## Conclusion
-----------
 
  We have successfully created two namespaces, established virtual Ethernet cables, created a virtual bridge, and enabled communication between the namespaces. You can now use this setup for various networking experiments and configurations.
 
