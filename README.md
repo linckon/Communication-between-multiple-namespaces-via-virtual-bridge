@@ -41,7 +41,6 @@ This process may take a few minutes.
 This will give you access to the Ubuntu environment within the virtual machine.
 
 ## Step 4: Create Namespaces
--------------------------
 
 - Open a terminal or shell prompt on your Linux system.
     
@@ -59,7 +58,6 @@ This will give you access to the Ubuntu environment within the virtual machine.
     
 
 ## Step 5: Create Virtual Ethernet Cables
---------------------------------------
 
 -  Create the first virtual Ethernet cable connecting ns1 and the virtual bridge:
     
@@ -93,7 +91,6 @@ This will give you access to the Ubuntu environment within the virtual machine.
 
 
 ## Step 6: Assign IP Addresses
----------------------------
 
 -  Assign an IP address to the ns1-veth-in interface within ns1:
     
@@ -109,7 +106,6 @@ This will give you access to the Ubuntu environment within the virtual machine.
     
 
 ## Step 7: Create Virtual Bridge
------------------------------
 
 -  Create the virtual bridge:
     
@@ -146,7 +142,6 @@ This will give you access to the Ubuntu environment within the virtual machine.
     
 
 ## Step 8: Testing Communication
------------------------------
 
 -  Open two terminal windows, one for each namespace.
     
